@@ -10,6 +10,7 @@ body{
   background-color: #f2f2f2;
   color: #333;
  height: 130vh;
+ position: relative;
 }
 /* General Styling */
 
@@ -59,6 +60,8 @@ color: #13cc1f;
   background-color: #090A50;
 color: #fff;
 padding: 10px 20px;
+
+position: relative;
 
 }
 
@@ -263,6 +266,7 @@ margin-right: 15px;
   text-align: center;
   background-color: #090A50;
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  border: none;
 }
 .more{
   display: flex;
@@ -357,7 +361,6 @@ padding: 20px 0px;
     .grid_item:nth-of-type(1){
       grid-column: 1 / 2;
       grid-row: 1 / 2;
-      align-items: flex-start;
     }
   
     .grid_item:nth-of-type(2){
@@ -379,6 +382,7 @@ padding: 20px 0px;
     .grid_item:nth-of-type(5){
       grid-column: 1 / 2;
       grid-row: 5 / 6;
+     
     }
   
 
@@ -397,8 +401,6 @@ padding: 20px 0px;
       left: 0px;
       transform: translate(-500px);
       top: 0px;
-      padding: 100px 0px;
-      padding-bottom: 80%;
       transition: transform 0.5s ease-in-out;
     }
 
