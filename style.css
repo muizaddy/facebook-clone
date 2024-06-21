@@ -290,12 +290,14 @@ margin-right: 15px;
     padding: 20px;
   }
   .grid_item{
-    width: 95%;
+    width: 100%;
     margin: auto;
+    height: 100%;
   }
     .grid_item:nth-of-type(1){
       grid-column: 1 / 2;
       grid-row: 1 / 2;
+
     }
   
     .grid_item:nth-of-type(2){
