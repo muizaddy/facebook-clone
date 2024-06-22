@@ -323,6 +323,10 @@ margin-right: 15px;
 }
 
 @media screen and (max-width:730px){
+  body{
+    padding-bottom: 10px;
+    background-color: #f2f2f2;
+  }
   .navbar{
     position: fixed;
     z-index: 1;
@@ -332,11 +336,11 @@ margin-right: 15px;
   .grid{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     gap: 10px;
     position: relative;
     top: 90px;
-    padding: 30px;
+    margin: 10px;
     height: 100%;
     margin: auto;
   }
