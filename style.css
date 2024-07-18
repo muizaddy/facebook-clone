@@ -43,6 +43,7 @@ color: #13cc1f;
 .navbar .container .list li a{
   text-decoration: none;
   color: #fff;
+  display: inline-block;
 }
 .navbar .container .list li{
   position: relative;
@@ -56,7 +57,9 @@ color: #13cc1f;
   display: none;
   padding: 5px 0px;
 }
-
+.navbar .container .list li.first_drop:hover > ul{
+  display: block;
+}
 .navbar .container .list li ul li{
   width: 150%;
   background-color: #090A50;
@@ -66,17 +69,32 @@ position: relative;
 
 }
 
+.navbar .container .list li ul li a{
+  display: inline-block;
+}
 .navbar .container .list li ul li:hover{
   background-color: #13cc1f;
   color: #fff;
   transition: all 0.5s ease-in-out;
-  
 }
-.navbar .container .list li ul li a.serv{
-text-decoration: none;
+.serv{
+  color: #13cc1f;
+  cursor: pointer;
+
+}
+.navbar .container .list li ul li ul{
+  display: none;
 }
 
+.navbar .container .list li ul .second_drop:hover > ul{
+  display: block;
+} 
 
+.navbar .container .list li ul li ul li:hover{
+  background-color: #13cc1f;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
 .profile{
   width: 50px;
   height: 50px;
